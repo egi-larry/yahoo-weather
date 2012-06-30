@@ -8,7 +8,6 @@ Hoe.spec('yahoo-weather') do |p|
   self.rubyforge_name = 'yahoo-weather'
   self.author = 'Walter Korman'
   self.email = 'shaper@fatgoose.com'
-  self.extra_deps << [ 'nokogiri', '>= 1.4.1' ]
   self.summary = 'A Ruby object-oriented interface to the Yahoo! Weather service.'
   self.description = <<EDOC
 The yahoo-weather rubygem provides a Ruby object-oriented interface to the
